@@ -1,0 +1,45 @@
+{
+  "name": "torgbox",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.3.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/plugin-transform-runtime": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "@babel/preset-typescript": "^7.26.0",
+    "@babel/runtime": "^7.26.0",
+    "@types/node": "^22.8.6",
+    "@types/webpack": "^5.28.5",
+    "@types/webpack-dev-server": "^4.7.1",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "webpack": "^5.96.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "scripts": {
+    "start": "webpack serve --open"
+  },
+  "browserslist": [
+    "> 1%",               
+    "last 2 versions",    
+    "Chrome > 57",
+    "Firefox > 52",
+    "Opera > 44",
+    "not dead"       
+  ]
+}
